@@ -15,6 +15,7 @@ public class HelloApplication extends Application {
     private char currentPlayer = 'X';
 
     public static void main(String[] args) {
+        System.out.println("Dieses Spiel ist für 2 Personen entwickelt worden!");
         System.out.println("Spieler 1 beginnt mit dem Symbol X");
         System.out.println("Spieler 2 hat das Symbol o");
         launch(args);
